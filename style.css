@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-group {
+  position: relative;
+  text-align: center;
+  /* outline: 1px solid red; */
+}
+
+h1 {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  mix-blend-mode: darken;
+  font-size: 15vw;
+  line-height: 1;
+}
+
+.title-group p {
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 5px 20px;
+  color: green;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
